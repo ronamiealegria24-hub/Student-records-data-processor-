@@ -471,7 +471,7 @@ function exportSummary(students) {
     };
 }
 
-// Optional stretch goal: filter students by year level.
+
 function filterByYear(students, year) {
     validateStudents(students);
     return students
@@ -479,7 +479,7 @@ function filterByYear(students, year) {
         .map(student => ({ ...student, grades: [...(student.grades || [])] }));
 }
 
-// Optional stretch goal: sort students alphabetically without changing original data.
+
 function sortByName(students) {
     validateStudents(students);
     return students
