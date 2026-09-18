@@ -1,0 +1,31 @@
+{
+  "totalStudents": 30,
+  "overallAverageGrade": 87.24,
+  "topPerformingStudent": {
+    "id": 3,
+    "name": "Carla Reyes",
+    "averageGrade": 95.0
+  },
+  "breakdownByCourse": [
+    {
+      "course": "BSCS",
+      "averageGrade": 92.48
+    },
+    {
+      "course": "BSED",
+      "averageGrade": 90.76
+    },
+    {
+      "course": "BSBA",
+      "averageGrade": 89.29
+    },
+    {
+      "course": "BSIT",
+      "averageGrade": 88.71
+    }
+  ],
+  "enrollmentCount": {
+    "enrolled": 22,
+    "notEnrolled": 8
+  }
+}
